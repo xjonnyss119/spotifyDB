@@ -1,0 +1,39 @@
+
+  ЗАДАНИЕ: ГРАФОВАЯ БАЗА ДАННЫХ — ВАРИАНТ 11
+  Spotify-модель: Слушатели, жанры, исполнители
+  (рекомендательная система)
+
+ТАБЛИЦЫ УЗЛОВ (NODE TABLES) — 3 штуки:
+1. Listener  — Слушатели (id, username, full_name, age,
+               country, subscription [free|premium|family|student],
+               registered_date)
+
+2. Artist    — Исполнители (id, name, country,
+               artist_type [solo|band|duo|orchestra],
+               monthly_listeners, debut_year,
+               status [active|hiatus|disbanded])
+
+3. Genre     — Жанры (id, name, description,
+               mood [energetic|calm|melancholic|happy|aggressive|romantic],
+               bpm_avg)
+
+ТАБЛИЦЫ РЁБЕР (EDGE TABLES) — 3 штуки:
+1. Listens      — Слушатель → Исполнитель
+                  Атрибуты: total_plays, last_played, is_following
+                  Семантика: однонаправленная
+
+2. Performs     — Исполнитель → Жанр
+                  Атрибуты: is_primary, since_year, influence_pct
+                  Семантика: однонаправленная
+
+3. Recommends   — Слушатель → Слушатель
+                  Атрибуты: rec_date, trust_score (1-10), message
+                  Семантика: направленная (для двусторонней — 2 записи)
+
+ДАННЫЕ:
+- Listener:   12 строк
+- Artist:     12 строк
+- Genre:      10 строк
+- Listens:    36 связей
+- Performs:   21 связь
+- Recommends: 14 связей
