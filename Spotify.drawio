@@ -1,0 +1,669 @@
+<mxfile host="app.diagrams.net" pages="6">
+  <diagram name="Listener" id="At9W87D49xlYiOdiHP_n">
+    <mxGraphModel dx="1471" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qFFPO1aDngwy4o01AsDH-159" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" value="Таблица узлов: Listener (Слушатели)" vertex="1">
+          <mxGeometry height="40" width="700" x="470" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-160" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="alex_sounds" vertex="1">
+          <mxGeometry height="30" width="220" x="190" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-161" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 1&#xa;username = alex_sounds&#xa;full_name = Алексей Морозов&#xa;age = 24&#xa;country = Россия&#xa;subscription = premium&#xa;registered_date = 2020-03-15" vertex="1">
+          <mxGeometry height="115" width="220" x="190" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-162" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="marina_v" vertex="1">
+          <mxGeometry height="30" width="220" x="450" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-163" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 2&#xa;username = marina_v&#xa;full_name = Марина Волкова&#xa;age = 31&#xa;country = Россия&#xa;subscription = family&#xa;registered_date = 2019-07-22" vertex="1">
+          <mxGeometry height="115" width="220" x="450" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-164" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="dj_pete" vertex="1">
+          <mxGeometry height="30" width="220" x="710" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-165" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 3&#xa;username = dj_pete&#xa;full_name = Пётр Зайцев&#xa;age = 19&#xa;country = Россия&#xa;subscription = student&#xa;registered_date = 2023-01-10" vertex="1">
+          <mxGeometry height="115" width="220" x="710" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-166" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="kate_music" vertex="1">
+          <mxGeometry height="30" width="220" x="970" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-167" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 4&#xa;username = kate_music&#xa;full_name = Екатерина Новикова&#xa;age = 27&#xa;country = Беларусь&#xa;subscription = premium&#xa;registered_date = 2021-05-18" vertex="1">
+          <mxGeometry height="115" width="220" x="970" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-168" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="ivan_bass" vertex="1">
+          <mxGeometry height="30" width="220" x="1230" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-169" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 5&#xa;username = ivan_bass&#xa;full_name = Иван Кузнецов&#xa;age = 35&#xa;country = Россия&#xa;subscription = free&#xa;registered_date = 2018-11-02" vertex="1">
+          <mxGeometry height="115" width="220" x="1230" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-170" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="olga_pop" vertex="1">
+          <mxGeometry height="30" width="220" x="190" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-171" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 6&#xa;username = olga_pop&#xa;full_name = Ольга Сидорова&#xa;age = 22&#xa;country = Казахстан&#xa;subscription = student&#xa;registered_date = 2022-09-30" vertex="1">
+          <mxGeometry height="115" width="220" x="190" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-172" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="dmitry_rock" vertex="1">
+          <mxGeometry height="30" width="220" x="450" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-173" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 7&#xa;username = dmitry_rock&#xa;full_name = Дмитрий Павлов&#xa;age = 29&#xa;country = Россия&#xa;subscription = premium&#xa;registered_date = 2020-12-05" vertex="1">
+          <mxGeometry height="115" width="220" x="450" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-174" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="anna_jazz" vertex="1">
+          <mxGeometry height="30" width="220" x="710" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-175" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 8&#xa;username = anna_jazz&#xa;full_name = Анна Козлова&#xa;age = 44&#xa;country = Украина&#xa;subscription = premium&#xa;registered_date = 2017-04-14" vertex="1">
+          <mxGeometry height="115" width="220" x="710" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-176" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="sergey_beats" vertex="1">
+          <mxGeometry height="30" width="220" x="970" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-177" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 9&#xa;username = sergey_beats&#xa;full_name = Сергей Лебедев&#xa;age = 18&#xa;country = Россия&#xa;subscription = free&#xa;registered_date = 2024-02-01" vertex="1">
+          <mxGeometry height="115" width="220" x="970" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-178" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="natasha_soul" vertex="1">
+          <mxGeometry height="30" width="220" x="1230" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-179" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 10&#xa;username = natasha_soul&#xa;full_name = Наталья Орлова&#xa;age = 33&#xa;country = Россия&#xa;subscription = family&#xa;registered_date = 2019-08-19" vertex="1">
+          <mxGeometry height="115" width="220" x="1230" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-180" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="mike_edm" vertex="1">
+          <mxGeometry height="30" width="220" x="190" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-181" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 11&#xa;username = mike_edm&#xa;full_name = Михаил Фёдоров&#xa;age = 26&#xa;country = Россия&#xa;subscription = premium&#xa;registered_date = 2021-06-11" vertex="1">
+          <mxGeometry height="115" width="220" x="190" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-182" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="lena_indie" vertex="1">
+          <mxGeometry height="30" width="220" x="450" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-183" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 12&#xa;username = lena_indie&#xa;full_name = Елена Белова&#xa;age = 21&#xa;country = Беларусь&#xa;subscription = student&#xa;registered_date = 2023-03-27" vertex="1">
+          <mxGeometry height="115" width="220" x="450" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="qFFPO1aDngwy4o01AsDH-1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SiF_W6AC7i7lPMBKMZ4I" name="Artist ">
+    <mxGraphModel dx="1030" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" value="Таблица узлов: Artist (Исполнители)" vertex="1">
+          <mxGeometry height="40" width="700" x="340" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="The Weeknd" vertex="1">
+          <mxGeometry height="30" width="220" x="210" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 1&#xa;name = The Weeknd&#xa;country = Канада&#xa;artist_type = solo&#xa;monthly_listeners = 111 000 000&#xa;debut_year = 2010&#xa;status = active" vertex="1">
+          <mxGeometry height="115" width="220" x="210" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Imagine Dragons" vertex="1">
+          <mxGeometry height="30" width="220" x="470" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 2&#xa;name = Imagine Dragons&#xa;country = США&#xa;artist_type = band&#xa;monthly_listeners = 63 000 000&#xa;debut_year = 2008&#xa;status = active" vertex="1">
+          <mxGeometry height="115" width="220" x="470" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Billie Eilish" vertex="1">
+          <mxGeometry height="30" width="220" x="730" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 3&#xa;name = Billie Eilish&#xa;country = США&#xa;artist_type = solo&#xa;monthly_listeners = 79 000 000&#xa;debut_year = 2015&#xa;status = active" vertex="1">
+          <mxGeometry height="115" width="220" x="730" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Dua Lipa" vertex="1">
+          <mxGeometry height="30" width="220" x="990" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 4&#xa;name = Dua Lipa&#xa;country = Великобритания&#xa;artist_type = solo&#xa;monthly_listeners = 82 000 000&#xa;debut_year = 2015&#xa;status = active" vertex="1">
+          <mxGeometry height="115" width="220" x="990" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Kendrick Lamar" vertex="1">
+          <mxGeometry height="30" width="220" x="1250" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 5&#xa;name = Kendrick Lamar&#xa;country = США&#xa;artist_type = solo&#xa;monthly_listeners = 53 000 000&#xa;debut_year = 2003&#xa;status = active" vertex="1">
+          <mxGeometry height="115" width="220" x="1250" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Arctic Monkeys" vertex="1">
+          <mxGeometry height="30" width="220" x="210" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 6&#xa;name = Arctic Monkeys&#xa;country = Великобритания&#xa;artist_type = band&#xa;monthly_listeners = 26 000 000&#xa;debut_year = 2002&#xa;status = active" vertex="1">
+          <mxGeometry height="115" width="220" x="210" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Massive Attack" vertex="1">
+          <mxGeometry height="30" width="220" x="470" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 7&#xa;name = Massive Attack&#xa;country = Великобритания&#xa;artist_type = band&#xa;monthly_listeners = 6 500 000&#xa;debut_year = 1988&#xa;status = active" vertex="1">
+          <mxGeometry height="115" width="220" x="470" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;" value="Radiohead" vertex="1">
+          <mxGeometry height="30" width="220" x="730" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=8;" value="id = 8&#xa;name = Radiohead&#xa;country = Великобритания&#xa;artist_type = band&#xa;monthly_listeners = 16 000 000&#xa;debut_year = 1985&#xa;status = hiatus" vertex="1">
+          <mxGeometry height="115" width="220" x="730" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Calvin Harris" vertex="1">
+          <mxGeometry height="30" width="220" x="990" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 9&#xa;name = Calvin Harris&#xa;country = Великобритания&#xa;artist_type = solo&#xa;monthly_listeners = 57 000 000&#xa;debut_year = 2002&#xa;status = active" vertex="1">
+          <mxGeometry height="115" width="220" x="990" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Stromae" vertex="1">
+          <mxGeometry height="30" width="220" x="1250" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 10&#xa;name = Stromae&#xa;country = Бельгия&#xa;artist_type = solo&#xa;monthly_listeners = 11 000 000&#xa;debut_year = 2009&#xa;status = active" vertex="1">
+          <mxGeometry height="115" width="220" x="1250" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Linkin Park" vertex="1">
+          <mxGeometry height="30" width="220" x="210" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 11&#xa;name = Linkin Park&#xa;country = США&#xa;artist_type = band&#xa;monthly_listeners = 41 000 000&#xa;debut_year = 1996&#xa;status = active" vertex="1">
+          <mxGeometry height="115" width="220" x="210" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Norah Jones" vertex="1">
+          <mxGeometry height="30" width="220" x="470" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 12&#xa;name = Norah Jones&#xa;country = США&#xa;artist_type = solo&#xa;monthly_listeners = 14 000 000&#xa;debut_year = 2001&#xa;status = active" vertex="1">
+          <mxGeometry height="115" width="220" x="470" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-EAq_r_3vw_LL-_Wo7-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;align=left;spacingLeft=8;" value="Легенда:&#xa;— зелёный: status = active&#xa;— жёлтый: status = hiatus" vertex="1">
+          <mxGeometry height="60" width="200" x="730" y="670" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fGgxQN35_10xZlHbgLIu" name="Genre">
+    <mxGraphModel dx="1030" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" value="Таблица узлов: Genre (Жанры)" vertex="1">
+          <mxGeometry height="40" width="700" x="310" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="R&amp;B" vertex="1">
+          <mxGeometry height="30" width="220" x="190" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 1&#xa;name = R&amp;B&#xa;description = Ритм-н-блюз: вокальные&#xa;мелодии, современные биты&#xa;mood = romantic&#xa;bpm_avg = 90" vertex="1">
+          <mxGeometry height="100" width="220" x="190" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Alternative Rock" vertex="1">
+          <mxGeometry height="30" width="220" x="450" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 2&#xa;name = Alternative Rock&#xa;description = Альтернативный рок:&#xa;экспериментальные гитарные звуки&#xa;mood = energetic&#xa;bpm_avg = 130" vertex="1">
+          <mxGeometry height="100" width="220" x="450" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Indie Pop" vertex="1">
+          <mxGeometry height="30" width="220" x="710" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 3&#xa;name = Indie Pop&#xa;description = Инди-поп: независимые&#xa;лейблы, мечтательное звучание&#xa;mood = happy&#xa;bpm_avg = 115" vertex="1">
+          <mxGeometry height="100" width="220" x="710" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Pop" vertex="1">
+          <mxGeometry height="30" width="220" x="970" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 4&#xa;name = Pop&#xa;description = Популярная музыка:&#xa;запоминающиеся мелодии&#xa;mood = happy&#xa;bpm_avg = 120" vertex="1">
+          <mxGeometry height="100" width="220" x="970" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Hip-Hop" vertex="1">
+          <mxGeometry height="30" width="220" x="190" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 5&#xa;name = Hip-Hop&#xa;description = Хип-хоп: рэп,&#xa;семплы, диджейство&#xa;mood = energetic&#xa;bpm_avg = 95" vertex="1">
+          <mxGeometry height="100" width="220" x="190" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Rock" vertex="1">
+          <mxGeometry height="30" width="220" x="450" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 6&#xa;name = Rock&#xa;description = Рок: гитары, ударные,&#xa;живая энергетика&#xa;mood = aggressive&#xa;bpm_avg = 140" vertex="1">
+          <mxGeometry height="100" width="220" x="450" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Trip-Hop" vertex="1">
+          <mxGeometry height="30" width="220" x="710" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 7&#xa;name = Trip-Hop&#xa;description = Трип-хоп: медленный&#xa;хип-хоп с электронными элементами&#xa;mood = melancholic&#xa;bpm_avg = 80" vertex="1">
+          <mxGeometry height="100" width="220" x="710" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Electronic" vertex="1">
+          <mxGeometry height="30" width="220" x="970" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 8&#xa;name = Electronic&#xa;description = Электронная: синтезаторы,&#xa;семплеры, танцевальные ритмы&#xa;mood = energetic&#xa;bpm_avg = 128" vertex="1">
+          <mxGeometry height="100" width="220" x="970" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Jazz" vertex="1">
+          <mxGeometry height="30" width="220" x="190" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 9&#xa;name = Jazz&#xa;description = Джаз: импровизация,&#xa;сложная гармония, живые инструменты&#xa;mood = calm&#xa;bpm_avg = 70" vertex="1">
+          <mxGeometry height="100" width="220" x="190" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Indie Rock" vertex="1">
+          <mxGeometry height="30" width="220" x="450" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 10&#xa;name = Indie Rock&#xa;description = Инди-рок: независимые&#xa;группы, DIY-эстетика&#xa;mood = melancholic&#xa;bpm_avg = 125" vertex="1">
+          <mxGeometry height="100" width="220" x="450" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="OKvqPgY8LJ7SOm0s1a5Y-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;align=left;spacingLeft=8;" value="Легенда (mood):&#xa;romantic / happy / calm / energetic / aggressive / melancholic" vertex="1">
+          <mxGeometry height="40" width="340" x="710" y="690" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jfd46pKxf9TkiBTCv1bK" name="Listens ">
+    <mxGraphModel dx="2200" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" value="Таблица рёбер: Listens (Слушатель → Исполнитель)" vertex="1">
+          <mxGeometry height="40" width="900" x="180" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="alex_sounds" vertex="1">
+          <mxGeometry height="30" width="180" x="-10" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 1&#xa;username = alex_sounds&#xa;subscription = premium&#xa;country = Россия" vertex="1">
+          <mxGeometry height="70" width="180" x="-10" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="marina_v" vertex="1">
+          <mxGeometry height="30" width="180" x="-10" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 2&#xa;username = marina_v&#xa;subscription = family&#xa;country = Россия" vertex="1">
+          <mxGeometry height="70" width="180" x="-10" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="dj_pete" vertex="1">
+          <mxGeometry height="30" width="180" x="-10" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 3&#xa;username = dj_pete&#xa;subscription = student&#xa;country = Россия" vertex="1">
+          <mxGeometry height="70" width="180" x="-10" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="anna_jazz" vertex="1">
+          <mxGeometry height="30" width="180" x="-10" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 8&#xa;username = anna_jazz&#xa;subscription = premium&#xa;country = Украина" vertex="1">
+          <mxGeometry height="70" width="180" x="-10" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="The Weeknd" vertex="1">
+          <mxGeometry height="30" width="200" x="1380" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 1&#xa;name = The Weeknd&#xa;artist_type = solo&#xa;status = active" vertex="1">
+          <mxGeometry height="70" width="200" x="1380" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Dua Lipa" vertex="1">
+          <mxGeometry height="30" width="200" x="950" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 4&#xa;name = Dua Lipa&#xa;artist_type = solo&#xa;status = active" vertex="1">
+          <mxGeometry height="70" width="200" x="950" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Calvin Harris" vertex="1">
+          <mxGeometry height="30" width="200" x="650" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 9&#xa;name = Calvin Harris&#xa;artist_type = solo&#xa;status = active" vertex="1">
+          <mxGeometry height="70" width="200" x="650" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Norah Jones" vertex="1">
+          <mxGeometry height="30" width="200" x="1280" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 12&#xa;name = Norah Jones&#xa;artist_type = solo&#xa;status = active" vertex="1">
+          <mxGeometry height="70" width="200" x="1280" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Massive Attack" vertex="1">
+          <mxGeometry height="30" width="200" x="1080" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 7&#xa;name = Massive Attack&#xa;artist_type = band&#xa;status = active" vertex="1">
+          <mxGeometry height="70" width="200" x="1080" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Listens]&#xa;total_plays = 1240&#xa;last_played = 2026-05-10&#xa;is_following = 1" vertex="1">
+          <mxGeometry height="60" width="210" x="370" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-21" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-3" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-22" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-20" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Listens]&#xa;total_plays = 870&#xa;last_played = 2026-05-09&#xa;is_following = 1" vertex="1">
+          <mxGeometry height="60" width="210" x="370" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-24" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-3" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-25" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-23" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Listens]&#xa;total_plays = 980&#xa;last_played = 2026-05-11&#xa;is_following = 1" vertex="1">
+          <mxGeometry height="60" width="210" x="370" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-27" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-5" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-28" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-26" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Listens]&#xa;total_plays = 640&#xa;last_played = 2026-04-30&#xa;is_following = 0" vertex="1">
+          <mxGeometry height="60" width="210" x="370" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-30" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-5" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-31" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-29" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Listens]&#xa;total_plays = 2100&#xa;last_played = 2026-05-12&#xa;is_following = 1" vertex="1">
+          <mxGeometry height="60" width="210" x="370" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-33" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-7" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-34" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-32" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Listens]&#xa;total_plays = 1560&#xa;last_played = 2026-05-11&#xa;is_following = 1" vertex="1">
+          <mxGeometry height="60" width="210" x="370" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-36" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-7" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-37" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-35" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Listens]&#xa;total_plays = 2800&#xa;last_played = 2026-05-11&#xa;is_following = 1" vertex="1">
+          <mxGeometry height="60" width="210" x="370" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-39" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-9" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-40" edge="1" parent="1" source="D1ZLzks7MjaNSr6kqB0N-38" style="edgeStyle=orthogonalEdgeStyle;" target="D1ZLzks7MjaNSr6kqB0N-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1ZLzks7MjaNSr6kqB0N-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;align=left;spacingLeft=8;" value="Легенда:&#xa;— синий: узел Listener&#xa;— зелёный: узел Artist&#xa;— жёлтый: ребро Listens" vertex="1">
+          <mxGeometry height="70" width="200" x="80" y="870" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kpalxohw1MkifynB3v7i" name="Performs ">
+    <mxGraphModel dx="1585" dy="1011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" value="Таблица рёбер: Performs (Исполнитель → Жанр)" vertex="1">
+          <mxGeometry height="40" width="900" x="190" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="The Weeknd" vertex="1">
+          <mxGeometry height="30" width="190" x="10" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 1&#xa;name = The Weeknd&#xa;artist_type = solo&#xa;status = active" vertex="1">
+          <mxGeometry height="70" width="190" x="10" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Billie Eilish" vertex="1">
+          <mxGeometry height="30" width="190" x="20" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 3&#xa;name = Billie Eilish&#xa;artist_type = solo&#xa;status = active" vertex="1">
+          <mxGeometry height="70" width="190" x="20" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Massive Attack" vertex="1">
+          <mxGeometry height="30" width="190" x="120" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 7&#xa;name = Massive Attack&#xa;artist_type = band&#xa;status = active" vertex="1">
+          <mxGeometry height="70" width="190" x="120" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Calvin Harris" vertex="1">
+          <mxGeometry height="30" width="190" x="120" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 9&#xa;name = Calvin Harris&#xa;artist_type = solo&#xa;status = active" vertex="1">
+          <mxGeometry height="70" width="190" x="120" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Linkin Park" vertex="1">
+          <mxGeometry height="30" width="190" x="110" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=8;" value="id = 11&#xa;name = Linkin Park&#xa;artist_type = band&#xa;status = active" vertex="1">
+          <mxGeometry height="70" width="190" x="110" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="R&amp;B" vertex="1">
+          <mxGeometry height="30" width="190" x="890" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 1&#xa;name = R&amp;B&#xa;mood = romantic&#xa;bpm_avg = 90" vertex="1">
+          <mxGeometry height="70" width="190" x="890" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Pop" vertex="1">
+          <mxGeometry height="30" width="190" x="1150" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 4&#xa;name = Pop&#xa;mood = happy&#xa;bpm_avg = 120" vertex="1">
+          <mxGeometry height="70" width="190" x="1150" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Indie Pop" vertex="1">
+          <mxGeometry height="30" width="190" x="870" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 3&#xa;name = Indie Pop&#xa;mood = happy&#xa;bpm_avg = 115" vertex="1">
+          <mxGeometry height="70" width="190" x="870" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Trip-Hop" vertex="1">
+          <mxGeometry height="30" width="190" x="890" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 7&#xa;name = Trip-Hop&#xa;mood = melancholic&#xa;bpm_avg = 80" vertex="1">
+          <mxGeometry height="70" width="190" x="890" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Electronic" vertex="1">
+          <mxGeometry height="30" width="190" x="1120" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 8&#xa;name = Electronic&#xa;mood = energetic&#xa;bpm_avg = 128" vertex="1">
+          <mxGeometry height="70" width="190" x="1120" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" value="Rock" vertex="1">
+          <mxGeometry height="30" width="190" x="1100" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;align=left;spacingLeft=8;" value="id = 6&#xa;name = Rock&#xa;mood = aggressive&#xa;bpm_avg = 140" vertex="1">
+          <mxGeometry height="70" width="190" x="1100" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Performs]&#xa;is_primary = 1&#xa;since_year = 2010&#xa;influence_pct = 70.00" vertex="1">
+          <mxGeometry height="60" width="210" x="440" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-25" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-3" style="edgeStyle=orthogonalEdgeStyle;" target="LbEeSzPlrAdUiz3L4CNL-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-26" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-24" style="edgeStyle=orthogonalEdgeStyle;" target="LbEeSzPlrAdUiz3L4CNL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" value="[Performs]&#xa;is_primary = 0&#xa;since_year = 2015&#xa;influence_pct = 30.00" vertex="1">
+          <mxGeometry height="60" width="210" x="440" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-28" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-3" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" target="LbEeSzPlrAdUiz3L4CNL-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-29" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-27" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" target="LbEeSzPlrAdUiz3L4CNL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Performs]&#xa;is_primary = 1&#xa;since_year = 2015&#xa;influence_pct = 60.00" vertex="1">
+          <mxGeometry height="60" width="210" x="440" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-31" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-5" style="edgeStyle=orthogonalEdgeStyle;" target="LbEeSzPlrAdUiz3L4CNL-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-32" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-30" style="edgeStyle=orthogonalEdgeStyle;" target="LbEeSzPlrAdUiz3L4CNL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" value="[Performs]&#xa;is_primary = 0&#xa;since_year = 2019&#xa;influence_pct = 40.00" vertex="1">
+          <mxGeometry height="60" width="210" x="440" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-34" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-5" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" target="LbEeSzPlrAdUiz3L4CNL-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-35" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-33" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" target="LbEeSzPlrAdUiz3L4CNL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Performs]&#xa;is_primary = 1&#xa;since_year = 1988&#xa;influence_pct = 100.00" vertex="1">
+          <mxGeometry height="60" width="210" x="440" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-37" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-7" style="edgeStyle=orthogonalEdgeStyle;" target="LbEeSzPlrAdUiz3L4CNL-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-38" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-36" style="edgeStyle=orthogonalEdgeStyle;" target="LbEeSzPlrAdUiz3L4CNL-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Performs]&#xa;is_primary = 1&#xa;since_year = 2002&#xa;influence_pct = 100.00" vertex="1">
+          <mxGeometry height="60" width="210" x="450" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-40" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-9" style="edgeStyle=orthogonalEdgeStyle;" target="LbEeSzPlrAdUiz3L4CNL-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-41" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-39" style="edgeStyle=orthogonalEdgeStyle;" target="LbEeSzPlrAdUiz3L4CNL-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Performs]&#xa;is_primary = 1&#xa;since_year = 1996&#xa;influence_pct = 60.00" vertex="1">
+          <mxGeometry height="60" width="210" x="450" y="1095" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-43" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-11" style="edgeStyle=orthogonalEdgeStyle;" target="LbEeSzPlrAdUiz3L4CNL-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-44" edge="1" parent="1" source="LbEeSzPlrAdUiz3L4CNL-42" style="edgeStyle=orthogonalEdgeStyle;" target="LbEeSzPlrAdUiz3L4CNL-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbEeSzPlrAdUiz3L4CNL-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;align=left;spacingLeft=8;" value="Легенда:&#xa;— зелёный: узел Artist&#xa;— фиолетовый: узел Genre&#xa;— жёлтый (сплошной): is_primary = 1&#xa;— красный (пунктир): is_primary = 0" vertex="1">
+          <mxGeometry height="80" width="230" x="150" y="1240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="X4oevJmr9SM1joGYpyAs" name="Recommends ">
+    <mxGraphModel dx="2115" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" value="Таблица рёбер: Recommends (Слушатель → Слушатель)" vertex="1">
+          <mxGeometry height="40" width="900" x="70" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="alex_sounds" vertex="1">
+          <mxGeometry height="30" width="180" x="-180" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 1&#xa;subscription = premium&#xa;country = Россия" vertex="1">
+          <mxGeometry height="60" width="180" x="-180" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="dj_pete" vertex="1">
+          <mxGeometry height="30" width="180" x="-170" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 3&#xa;subscription = student&#xa;country = Россия" vertex="1">
+          <mxGeometry height="60" width="180" x="-170" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="ivan_bass" vertex="1">
+          <mxGeometry height="30" width="180" x="-150" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 5&#xa;subscription = free&#xa;country = Россия" vertex="1">
+          <mxGeometry height="60" width="180" x="-150" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="anna_jazz" vertex="1">
+          <mxGeometry height="30" width="180" x="170" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 8&#xa;subscription = premium&#xa;country = Украина" vertex="1">
+          <mxGeometry height="60" width="180" x="170" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="natasha_soul" vertex="1">
+          <mxGeometry height="30" width="180" x="170" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 10&#xa;subscription = family&#xa;country = Россия" vertex="1">
+          <mxGeometry height="60" width="180" x="170" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="marina_v" vertex="1">
+          <mxGeometry height="30" width="180" x="920" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 2&#xa;subscription = family&#xa;country = Россия" vertex="1">
+          <mxGeometry height="60" width="180" x="920" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="dj_pete" vertex="1">
+          <mxGeometry height="30" width="180" x="750" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 3&#xa;subscription = student&#xa;country = Россия" vertex="1">
+          <mxGeometry height="60" width="180" x="750" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="mike_edm" vertex="1">
+          <mxGeometry height="30" width="180" x="750" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 11&#xa;subscription = premium&#xa;country = Россия" vertex="1">
+          <mxGeometry height="60" width="180" x="750" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="dmitry_rock" vertex="1">
+          <mxGeometry height="30" width="180" x="750" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 7&#xa;subscription = premium&#xa;country = Россия" vertex="1">
+          <mxGeometry height="60" width="180" x="750" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="alex_sounds" vertex="1">
+          <mxGeometry height="30" width="180" x="920" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 1&#xa;subscription = premium&#xa;country = Россия" vertex="1">
+          <mxGeometry height="60" width="180" x="920" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Recommends]&#xa;rec_date = 2024-06-15&#xa;trust_score = 8&#xa;message = Послушай The Weeknd!" vertex="1">
+          <mxGeometry height="65" width="210" x="440" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-23" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-3" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-24" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-22" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Recommends]&#xa;rec_date = 2025-01-10&#xa;trust_score = 9&#xa;message = Оцени Calvin Harris!" vertex="1">
+          <mxGeometry height="65" width="210" x="440" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-26" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-3" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-27" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-25" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Recommends]&#xa;rec_date = 2025-03-22&#xa;trust_score = 10&#xa;message = Stromae — бомба!" vertex="1">
+          <mxGeometry height="65" width="210" x="440" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-29" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-5" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-30" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-28" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Recommends]&#xa;rec_date = 2024-09-01&#xa;trust_score = 9&#xa;message = Linkin Park лучшие!" vertex="1">
+          <mxGeometry height="65" width="210" x="460" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-32" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-7" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-33" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-31" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Recommends]&#xa;rec_date = 2025-04-05&#xa;trust_score = 7&#xa;message = Norah Jones — супер!" vertex="1">
+          <mxGeometry height="65" width="210" x="440" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-35" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-9" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-36" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-34" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Recommends]&#xa;rec_date = 2025-05-01&#xa;trust_score = 6&#xa;message = Imagine Dragons — новый альбом" vertex="1">
+          <mxGeometry height="65" width="210" x="440" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-38" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-11" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-39" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-37" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="[Recommends]&#xa;rec_date = 2026-04-18&#xa;trust_score = 5&#xa;message = Попробуй Massive Attack" vertex="1">
+          <mxGeometry height="65" width="210" x="440" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="mike_edm" vertex="1">
+          <mxGeometry height="30" width="180" x="170" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 11&#xa;subscription = premium&#xa;country = Россия" vertex="1">
+          <mxGeometry height="60" width="180" x="170" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="anna_jazz" vertex="1">
+          <mxGeometry height="30" width="180" x="920" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=8;" value="id = 8&#xa;subscription = premium&#xa;country = Украина" vertex="1">
+          <mxGeometry height="60" width="180" x="920" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-45" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-42" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-46" edge="1" parent="1" source="aQUPGDQIhKccWp0wXM6M-40" style="edgeStyle=orthogonalEdgeStyle;" target="aQUPGDQIhKccWp0wXM6M-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQUPGDQIhKccWp0wXM6M-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;align=left;spacingLeft=8;" value="Легенда:&#xa;— синий: узел Listener&#xa;— жёлтый: ребро Recommends&#xa;— trust_score: от 1 (низкий) до 10 (высокий)" vertex="1">
+          <mxGeometry height="70" width="240" x="170" y="1100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
